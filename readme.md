@@ -19,17 +19,16 @@ Date Format: Dates in the payload should follow the YYYY-MM-DD format.
 
 1. Clone the Repository
 
-``` git clone <repository-url>
-cd <project-folder> ```
+``` git clone <repository-url> ```
+``` cd <project-folder> ```
 
 2. Set Up Virtual Environment
 
 ``` python -m venv env ```
 
-```
-source env/bin/activate  # For Linux/Mac
-env\Scripts\activate     # For Windows 
-```
+``` source env/bin/activate  # For Linux/Mac ```
+``` env\Scripts\activate     # For Windows  ```
+
 
 3. Install Dependencies
 
@@ -37,9 +36,8 @@ env\Scripts\activate     # For Windows
 
 4. Set Up the Database
 
-``` python manage.py makemigrations
-python manage.py migrate
-```
+``` python manage.py makemigrations ```
+``` python manage.py migrate ```
 
 5. Run the Development Server
 
